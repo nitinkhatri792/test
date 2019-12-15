@@ -1,0 +1,96 @@
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px !important;
+}
+
+.margin20 {
+    margin: 20px !important;
+}
+
+.mainCharaterDiv {
+    background: #1f222a;
+    padding: 5px;
+    margin-bottom: 30px;
+    max-width: 310px;
+}
+
+.characterDiv {
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 4%;
+}
+
+.imageDiv {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.name {
+    width: 100%;
+    opacity: 0.8;
+    bottom: 0px;
+    background: #202329;
+    padding: 15px;
+    position: absolute;
+}
+
+.name h2 {
+    color: #f5f5f5;
+    margin: 0px;
+}
+
+.name p {
+    color: #bbbbbb;
+    margin: 0px;
+}
+
+.detailsDiv {
+    display: flex;
+    padding: 5px 0px 5px;
+    border-bottom: 1px solid #444444;
+}
+
+.detailsInfo {
+    color: #ff9800;
+    padding: 20px;
+    background: #333333;
+}
+
+.detailsDiv span {
+    color: #9e9e9e;
+}
+
+.detailsDiv p {
+    width: 100%;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .name {
+        padding: 0px;
+    }
+    .name h2 {
+        font-size: 12px;
+    }
+    .name p {
+        font-size: 10px;
+    }
+    .detailsInfo {
+        padding: 7px;
+    }
+    .detailsDiv span {
+        font-size: 10px;
+    }
+    .detailsDiv p {
+        font-size: 10px;
+    }
+}
